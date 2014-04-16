@@ -1,0 +1,77 @@
+nav {
+height: 300px;
+border: 2px solid clear;
+float: left;
+padding: 8px;
+}
+
+ul {
+font-family: Cursive;
+font-size: 18px;
+color: pink;
+text-decoration: none;
+}
+
+a {
+text-decoration: none;
+}
+
+a:link {
+color: #FF6666;
+}
+a:visited {
+color: #FFFF99;
+}
+
+a:hover {
+color: #00CC66;
+}
+
+
+body {
+background-image: url("images/flower.gif");
+background-repeat: no-repeat;
+background-position: center, absolute, fixed;
+background-size: 98%;
+background-color: gray;
+min-width: 100%;
+min-height: 100%;
+z-index:0;
+}
+
+@font-face
+{
+font-family: myFirstFont;
+src: url("fonts/GreatVibes-Regular.ttf");
+}
+
+h1, h2 {
+text-align: center;
+font-family: myFirstFont;
+font-size: 50px;
+font-weight: 200;
+color: #FF6666;
+}
+
+img {
+position: absolute,center;
+padding: 100px;
+margin-top: -80px;
+margin-left: 60px;
+}
+
+p {
+font-family: myFirstFont;
+position: absolute, center;
+font-size: 35px;
+margin-left: 15px;
+padding: 10px;
+}
+
+footer {
+text-align:center;
+font-size: 10px;
+}
+
+
+
