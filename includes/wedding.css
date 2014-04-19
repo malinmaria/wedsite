@@ -1,8 +1,10 @@
+
 nav {
 height: 300px;
 border: 2px solid clear;
 float: left;
 padding: 8px;
+font-family: cursive;
 }
 
 ul {
@@ -24,7 +26,7 @@ color: #FFFF99;
 }
 
 a:hover {
-color: #00CC66;
+color: #00CC99;
 }
 
 
@@ -55,8 +57,8 @@ color: #FF6666;
 img {
 position: absolute,center;
 padding: 100px;
-margin-top: -80px;
-margin-left: 60px;
+margin-top: 0%;
+margin-left: 28%;
  
 }
 
@@ -64,13 +66,17 @@ p {
 font-family: myFirstFont;
 position: absolute, center;
 font-size: 35px;
-margin-left: 15px;
+margin-left: 28%;
 padding: 10px;
 }
 
 footer {
 text-align:center;
 font-size: 10px;
+position: fixed;
+bottom:0;
+margin-left: 40%;
+z-index:9999;
 }
 
 form {
@@ -79,6 +85,7 @@ position: relative, center;
 border: 2px;
 padding: 20px;
 text-align: center;
+margin-left: 30%;
 }
 
 # submit {
