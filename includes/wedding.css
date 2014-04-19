@@ -73,5 +73,18 @@ text-align:center;
 font-size: 10px;
 }
 
+form {
+display:table;
+position: relative, center;
+border: 2px;
+padding: 20px;
+text-align: center;
+}
+
+# submit {
+color:blue;
+}
+
+ 
 
 

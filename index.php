@@ -13,11 +13,11 @@
        <br>
        <li><a href="reception">Wedding Reception</a></li>
        <br>
-       <li><a href="rsvp">RSVP</a></li>
+       <li><a href="rsvp.php">RSVP</a></li>
        <br>
        <li><a href="pictures">Pictures</a></li>
        <br>
-       <li><a href="registry">Gift Registry</a></li>
+       <li><a href="registry.php">Gift Registry</a></li>
    </ul>
 </nav>
 
