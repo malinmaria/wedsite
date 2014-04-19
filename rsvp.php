@@ -1,22 +1,6 @@
 <?php include('includes/header.php')?>
 
-<nav>
-    <ul>
-       <li><a href="ourstory.php">Our Story</a></li>
-       <br>
-       <li><a href="pstory">Proposal Story</a></li>
-       <br>
-       <li><a href="ceremony">Wedding Ceremony</a></li>
-       <br>
-       <li><a href="reception">Wedding Reception</a></li>
-       <br>
-       <li><a href="rsvp.php">RSVP</a></li>
-       <br>
-       <li><a href="pictures">Pictures</a></li>
-       <br>
-       <li><a href="registry">Gift Registry</a></li>
-   </ul>
-</nav>
+<?php include('includes/navbar.php')?>
 
 <p>August 15, 2014. Be there or be square!</p>
 
