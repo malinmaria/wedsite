@@ -29,16 +29,15 @@ color: #00CC66;
 
 
 body {
-background-image: url("images/flower.gif");
+background-image: url("images/flower1.jpg");
 background-repeat: no-repeat;
 background-position: center, absolute, fixed;
-background-size: 98%;
+background-size: 100%;
 background-color: gray;
 min-width: 100%;
 min-height: 100%;
 z-index:0;
 }
-
 @font-face
 {
 font-family: myFirstFont;
@@ -58,6 +57,7 @@ position: absolute,center;
 padding: 100px;
 margin-top: -80px;
 margin-left: 60px;
+ 
 }
 
 p {
