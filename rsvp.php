@@ -2,19 +2,21 @@
 
 <?php include('includes/navbar.php')?>
 
-<p>August 15, 2014. Be there or be square!</p>
+<p><span>August 15, 2014. Be there or be square!</span></p>
 
-<article>
+<article id="rsvp">
   <form action=" ">
     <input type="radio" name="rsvp" value="there" />Hooray, I'm there!<br><br>
     <input type="radio" name="rsvp" value="square" />Sadly, I'm square. <br><br>
-    <label>Name: </label><input name="rsvpName" required />
+    <input type="radio" name="rsvp" value="maybe" />I'm undecided at this time.<br><br>
+    <label>Name: </label><input name="rsvpName" required /><br><br>
+    <label>How many guests are in your party?</label><input name="rsvpParty" />
     <br>
     <br>
     <input id="submit" type="submit" name="submit" value="Submit" />
    </form>
 </article>  
 
-<p>Formal invites are soon to follow.</p>
+<p><span>Formal invitations are soon to follow.</span></p>
 
 <?php include('includes/footer.php')?>
