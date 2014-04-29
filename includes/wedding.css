@@ -71,6 +71,12 @@ margin-left: 28%;
 padding: 10px;
 }
 
+.boxed {
+border: 2px outset #00CC99;
+width: 50%;
+margin-left:28%;
+}
+
 span {
 margin-left:20%;
 }
@@ -100,7 +106,7 @@ color:blue;
 article {
 padding: 10px;
 display:table;
-margin-left: 28%;
+margin-left: 20%;
 }
 
 div {
@@ -108,7 +114,7 @@ display: block;
 }
 
 # rsvp {
-margin-left: 25%;
+margin-left: 18%;
 }
  
 
