@@ -72,10 +72,11 @@ padding: 10px;
 }
 
 .boxed {
-border: 2px outset #00CC99;
+border: 5px outset #00CC99;
 width: 50%;
 margin-left:28%;
 }
+
 
 span {
 margin-left:20%;
