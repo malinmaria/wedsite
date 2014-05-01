@@ -7,8 +7,12 @@
 <br>
   <p>
     The ceremony will be held at Headwaters Park in Huntsburg, Ohio.
-  </p>  
-
+  </p>
+  <p>  
+    Headwaters Park<br>
+    13365 Old State Rd<br>
+    Huntsburg, OH 44021
+   </p>
 
 <table>
   <tr>
