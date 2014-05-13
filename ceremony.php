@@ -6,7 +6,7 @@
 <br>
 <br>
   <p>
-    The ceremony will be held at Headwaters Park in Huntsburg, Ohio.
+    A private ceremony will be held at Headwaters Park in Huntsburg, Ohio.
   </p>
   <p>  
     Headwaters Park<br>

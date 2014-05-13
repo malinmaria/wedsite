@@ -6,5 +6,5 @@
 
 <img src="includes/images/us.jpg" width="350" height="255" />
 
-<p> Please save the date of Friday, August 15, 2014 for our wedding in Montville, Ohio. </p>
+<p> Please save the date of Friday, August 15, 2014 for the celebration of our wedding in Montville, Ohio. </p>
 <?php include('includes/footer.php')?>

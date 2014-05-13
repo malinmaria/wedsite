@@ -11,7 +11,8 @@
     <input type="radio" name="rsvpResponse" value="maybe" />I'm undecided at this time.<br><br>
     <label>Name: </label><input id="rsvpName" name="rsvpName" required /><br><br>
     <label>How many guests are in your party? Include yourself. </label><input id="rsvpParty" name="rsvpParty" /><br><br>
-    <label>Enter the secret code here: </label> <input id="rsvpPassword" name ="rsvpPassword" /> 
+    <label>Enter the secret code here: </label> <input id="rsvpPassword" name ="rsvpPassword" /> <br><br>
+    <label>Any comments you'd like to add? </label> <input id="comments" name ="comments" />
     <br>
     <br>
     <input id="submit" type="submit" name="submit" value="Submit" />
@@ -28,6 +29,7 @@
         var rsvpName = $('#rsvpName').val();
         var rsvpParty = $('#rsvpParty').val();
         var rsvpPassword = $('#rsvpPassword').val();
+        var comments = $('#comments').val();
     
         $.ajax({
             type: 'POST',
@@ -36,7 +38,8 @@
                 rsvp: rsvpResponse,
                 name: rsvpName,
                 party: rsvpParty,
-                password: rsvpPassword
+                password: rsvpPassword,
+                comments: rsvpComments
             },
             success: function(data) {
                 $('#returnMessage').text(data);

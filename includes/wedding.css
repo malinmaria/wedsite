@@ -67,7 +67,7 @@ p {
 font-family: myFirstFont;
 position: absolute, center;
 font-size: 35px;
-margin-left: 28%;
+margin-left: 26%;
 padding: 10px;
 }
 
@@ -116,6 +116,10 @@ display: block;
 
 # rsvp {
 margin-left: 18%;
+}
+
+input {
+border-radius: 5px;
 }
  
 
